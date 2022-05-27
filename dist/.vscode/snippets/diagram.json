@@ -4143,6 +4143,22 @@
       "$0"
     ]
   },
+  "AzureStaticWebApp": {
+    "prefix": "Azure Static Web App",
+    "description": "Add Azure Static Web App to diagram",
+    "body": [
+      "AzureStaticWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureStaticWebApp_Descr": {
+    "prefix": "Azure Static Web App with Description",
+    "description": "Add Azure Static Web App with Description to diagram",
+    "body": [
+      "AzureStaticWebApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureWebApp": {
     "prefix": "Azure Web App",
     "description": "Add Azure Web App to diagram",

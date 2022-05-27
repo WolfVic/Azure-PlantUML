@@ -148,6 +148,17 @@ AzureEntityColoring(AzureSignalRService)
 !define AzureSignalRService(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)
 !define AzureSignalRService(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSignalRService, AzureSignalRService)
 
+sprite $AzureStaticWebApp [70x70/16z] {
+xT87RiD030NHuNPgVV_p1cek16X4NgLdKApwX1-47z1_CXo4wJ9SBtevetxvfMcKD2qBiuIsNAf1yh6z4u3CxqG0dH60T4WfpBMD8-qS_JCLkoWitF55IoqG
+fyMBI5t_8OKqkt-pVahJa_xJzcfga07cCvKQyWbAWZIk29HXfG8lBegKkq6njKmwh4JWOL05qZ5bGTBT87F9KLna7-GmlcAV3r3CPK_naGRO6rRfS_eCoH2Q
+psZVKnzP1cNdfg-8VGumtmYUOZzc1XacEufvo0moAkaTYqIoEwXb4N_HNKdkcGBX4H7_h-io4R95NCLbW6eGN_6O0c8GNp6jp7mK8UdMWgZDAfOfgiiW1t4K
+oqJL0h9V2GPn5CE4ffhk1jLW4QjuoJB8T5If83gk1DAWijJQ0MMWgP_1zDzPEGEPY6MunFVllpS
+}
+
+AzureEntityColoring(AzureStaticWebApp)
+!define AzureStaticWebApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureStaticWebApp, AzureStaticWebApp)
+!define AzureStaticWebApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureStaticWebApp, AzureStaticWebApp)
+
 sprite $AzureWebApp [70x70/16z] {
 rTRdpiCw281XcmttVy674ZN2AL_FNe_KlwzmQCRwdm0IDK-cGh3-W4qM3yQ_imI850FdlNuhPamQ8_bj7VPmJEGna_Mhm2899euVEAxlE8eJ9lNkjuzpxqKn
 aJz4xVm5z_h9zhOCJEoT2JK_PS3lHi8NyJUjB4wPUH8lYY_Q4uyEJ17kaSJuOjaWF7oRXjXx914c4i8d8XPLDHqYx3sI315XmwF0QlVMdnbWPgr8endPFKDY
